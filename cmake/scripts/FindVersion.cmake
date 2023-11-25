@@ -125,6 +125,18 @@ else()
     set(REV_YEAR "1970")
 endif()
 
+# ====== START: Freeze version 13.4 ======
+set(REV_VERSION "13.4")
+set(REV_MAJOR 13)
+set(REV_MINOR 4)
+set(REV_ISODATE "20230711")
+set(REV_MODIFIED 0)
+set(REV_HASH "7e457a367e67f4e1b7d28ebd769e3a649ea60175")
+set(REV_ISTAG 1)
+set(REV_ISSTABLETAG 1)
+set(REV_YEAR "2023")
+# ======  END:  Freeze version 13.4 ======
+
 message(STATUS "Version string: ${REV_VERSION}")
 
 if(GENERATE_OTTDREV)
