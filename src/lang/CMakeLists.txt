@@ -4,6 +4,7 @@ set(MASTER_LANG_FILE
 
 set(LANG_SOURCE_FILES
         ${MASTER_LANG_FILE}
+#[[
         ${CMAKE_CURRENT_SOURCE_DIR}/afrikaans.txt
         ${CMAKE_CURRENT_SOURCE_DIR}/arabic_egypt.txt
         ${CMAKE_CURRENT_SOURCE_DIR}/basque.txt
@@ -68,6 +69,7 @@ set(LANG_SOURCE_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/ukrainian.txt
         ${CMAKE_CURRENT_SOURCE_DIR}/vietnamese.txt
         ${CMAKE_CURRENT_SOURCE_DIR}/welsh.txt
+]]
 )
 
 set(LANG_BINARY_DIR ${CMAKE_BINARY_DIR}/lang)
