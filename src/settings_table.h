@@ -25,8 +25,6 @@ extern SettingTable _linkgraph_settings;
 extern SettingTable _locale_settings;
 extern SettingTable _misc_settings;
 extern SettingTable _multimedia_settings;
-extern SettingTable _network_private_settings;
-extern SettingTable _network_secrets_settings;
 extern SettingTable _network_settings;
 extern SettingTable _news_display_settings;
 extern SettingTable _old_gameopt_settings;

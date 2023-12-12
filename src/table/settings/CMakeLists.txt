@@ -13,8 +13,6 @@ set(TABLE_INI_SOURCE_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/misc_settings.ini
         ${CMAKE_CURRENT_SOURCE_DIR}/multimedia_settings.ini
         ${CMAKE_CURRENT_SOURCE_DIR}/network_settings.ini
-        ${CMAKE_CURRENT_SOURCE_DIR}/network_private_settings.ini
-        ${CMAKE_CURRENT_SOURCE_DIR}/network_secrets_settings.ini
         ${CMAKE_CURRENT_SOURCE_DIR}/news_display_settings.ini
         ${CMAKE_CURRENT_SOURCE_DIR}/old_gameopt_settings.ini
         ${CMAKE_CURRENT_SOURCE_DIR}/pathfinding_settings.ini
