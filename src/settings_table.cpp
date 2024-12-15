@@ -66,8 +66,6 @@ SettingTable _gui_settings{ _gui_settings_table };
 SettingTable _linkgraph_settings{ _linkgraph_settings_table };
 SettingTable _locale_settings{ _locale_settings_table };
 SettingTable _misc_settings{ _misc_settings_table };
-SettingTable _network_private_settings{ _network_private_settings_table };
-SettingTable _network_secrets_settings{ _network_secrets_settings_table };
 SettingTable _network_settings{ _network_settings_table };
 SettingTable _news_display_settings{ _news_display_settings_table };
 SettingTable _old_gameopt_settings{ _old_gameopt_settings_table };
