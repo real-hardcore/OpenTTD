@@ -125,6 +125,18 @@ else()
     set(REV_YEAR "1970")
 endif()
 
+# ====== START: Freeze version 14.1 ======
+set(REV_VERSION "14.1")
+set(REV_MAJOR 14)
+set(REV_MINOR 0) # this should be 1, but for some reason it is zero in the official 14.1 version tag
+set(REV_ISODATE "20240503")
+set(REV_MODIFIED 0)
+set(REV_HASH "61342620bc4c0971b28b3578379b53d04d2f11f1")
+set(REV_ISTAG 1)
+set(REV_ISSTABLETAG 1)
+set(REV_YEAR "2024")
+# ======  END:  Freeze version 14.1 ======
+
 message(STATUS "Version string: ${REV_VERSION}")
 
 if(GENERATE_OTTDREV)
